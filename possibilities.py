@@ -6,5 +6,5 @@ for b in characters
 for c in characters
 for d in characters]
 print(len(results))
-with open('possibilites.txt', 'w') as f:
-    write(str(results))
+with open('possibilites.text', 'w') as f:
+    f.write(str(results))
